@@ -1,0 +1,13 @@
+.icon {
+  width: 48px;
+  height: 48px;
+  fill: $alpha;
+}
+
+.logo {
+  float: left;
+  margin: 0 15px 0 0;
+  @media screen and (max-width: 400px) {
+    margin: 0 10px 0 0;
+  }
+}

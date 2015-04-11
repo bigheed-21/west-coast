@@ -1,0 +1,72 @@
+.form-title {
+  text-align: center;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  -webkit-appearance: none;
+  @media screen and (max-width: 940px) {
+    width: 90%;
+  }
+}
+
+input {
+  border: 1px solid $beta;
+  background-color: $delta;
+  padding: 20px;
+  outline: none;
+}
+
+
+.form-submit {
+  margin: 0 auto;
+}
+
+input[type='submit'] {
+  width: 100%;
+  background-color: $alpha;
+  color: $beta;
+}
+
+select {
+  background-color: $delta;
+  border: 1px solid $beta;
+  width: 100%;
+  outline: none;
+  option {
+    text-align: center;
+  }
+}
+
+textarea {
+  background-color: $delta;
+  padding: 20px;
+  border: 1px solid $beta;
+  outline: none;
+}
+
+label {
+  font-size: .9em;
+  letter-spacing: 1px;
+}
+
+.ccf-form-wrapper .field .left {
+  @media screen and (max-width: 560px) {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.ccf-form-wrapper .field .right {
+  @media screen and (max-width: 560px) {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+input[type="submit"], input[type="text"], textarea {
+  -webkit-appearance: none;
+  box-shadow: none;
+}
+

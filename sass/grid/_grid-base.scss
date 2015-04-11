@@ -1,0 +1,12 @@
+.container {
+  margin: 0 auto;
+  width: 95%;
+  position: relative;
+  @media screen and (max-width: 600px) {
+    width: 90%;
+  }
+}
+
+.index-demo {
+  margin: 100px 0;
+}

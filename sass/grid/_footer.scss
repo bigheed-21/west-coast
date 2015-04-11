@@ -1,0 +1,41 @@
+.site-footer {
+  padding: 140px 0;
+  @extend %clearfix;
+  margin-top: 150px;
+  border-top: 1px solid $delta;
+  @media screen and (max-width: 719px) {
+    margin-top: 40px;
+    padding: 30px 0;
+  }
+  @media screen and (max-width: 500px) {
+    padding: 30px 0;
+  }
+}
+
+.footer-block {
+  float: left;
+  width: 50%;
+  text-align: center;
+  @media screen and (max-width: 719px) {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  h4 {
+    border-bottom: 1px solid #000;
+    margin-bottom: .5em;
+    font-size: 1.4em;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    font-weight: 100;
+    display: inline-block;
+  }
+}
+
+.copyright {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #eaeaea;
+  @media screen and (max-width: 574px) {
+    font-size: 0.8em;
+  }
+}

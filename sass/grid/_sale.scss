@@ -1,0 +1,98 @@
+.sales {
+  background-color: $beta;
+  margin: 20px 0;
+  @extend %clearfix;
+  text-align: center;
+  @media screen and (max-width: 660px) {
+    text-align: center;
+  }
+}
+
+.sale-header {
+  font-size: 3em;
+  text-align: center;
+  font-weight: 100;
+  padding: 30px 0; 
+}
+
+.sales-header {
+  margin-bottom: 50px;
+  h1 {
+    font-size: 2em;
+  }
+  h3 {
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+    color: $omega;
+    letter-spacing: 1px;
+    text-decoration: underline;
+  }
+}
+
+.product-container {
+  margin: 80px 0 0 0;
+  @extend %clearfix;
+}
+
+.center {
+  @media screen and (max-width: 660px) {
+    text-align: center;
+  }
+}
+
+.product-info {
+  background-color: $beta;
+  @media screen and (max-width: 800px) {
+    margin-left: 0;
+  }
+  h1 {
+    margin: 0;
+    font-weight: 100;
+    font-size: 2em;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    color: $gamma;
+    @media screen and (max-width: 960px) {
+      font-size: 1.4em;
+    }
+  }
+  @media screen and (max-width: 660px) {
+    padding: 20px 0;
+    float: none;
+  }
+  p {
+    color: $omega;
+  }
+}
+
+.sale-description {
+  margin-top: 50px;
+}
+
+.flyer-link {
+  font-size: 1.2em;
+  color: $alpha;
+  border-radius: 4px;
+  display: block;
+  background-color: $gamma;
+  width: 20%;
+  margin: 50px auto;
+  padding: 24px 25px;
+  @media screen and (max-width: 1125px) {
+    width: 30%;
+  }
+  @media screen and (max-width: 800px) {
+    width: 40%;
+  }
+  @media screen and (max-width: 600px) {
+    width: 50%;
+  }
+  @media screen and (max-width: 500px) {
+    width: 60%;
+    font-size: 1em;
+  }
+  @media screen and (max-width: 400px) {
+    width: 80%;  
+  }
+}

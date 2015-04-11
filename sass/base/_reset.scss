@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+  background-color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: anti-antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  display: inline-block;
+  @media screen and (max-width: 660px) {
+    margin: 0 auto;
+  }
+}
+
+.site-content {
+  @extend %clearfix;
+  width: 100%;
+}
+
+
+.cta {
+  @extend %clearfix;
+}
+
+

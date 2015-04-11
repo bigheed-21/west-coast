@@ -1,0 +1,53 @@
+.services-block {
+  @extend %clearfix;
+  h1 {
+    font-size: 3em;
+    text-align: center;
+    font-weight: 100;
+    padding: 50px 0;
+    @media screen and (max-width: 719px) {
+      font-size: 2em;
+      padding: 20px 0;
+    }
+  }
+}
+
+
+.block {
+  width: 50%;
+  padding: 100px 80px;
+  height: 400px;
+  float: left;
+  background-color: $beta;
+  border-bottom: 1px solid $beta;
+  @media screen and (max-width: 1200px) {
+    padding: 80px 80px;
+    height: 300px;
+  }
+  @media screen and (max-width: 940px) {
+    padding: 40px;
+    height: auto;
+  }
+  @media screen and (max-width: 719px) {
+    width: 100%;
+  }
+  &:nth-child(2n + 2) {
+    border-left: 1px solid $beta;
+  }
+  h3 {
+    font-size: 1.4em;
+    border-bottom: 1px solid $alpha;
+    padding-bottom: 4px;
+    font-weight: normal;
+    letter-spacing: .1em;
+    display: inline-block;
+    margin-bottom: 1.5em;
+    color: $alpha;
+  }
+  p {
+    font-size: .9em;
+    color: $alpha;
+    line-height: 1.8;
+  }
+}
+

@@ -1,0 +1,60 @@
+.contact-block {
+  margin-bottom: 200px;
+  @extend %clearfix;
+  h1 {
+    font-size: 3em;
+    text-align: center;
+    font-weight: 100;
+    padding: 50px 0;
+    @media screen and (max-width: 660px) {
+      padding: 20px 0;
+      font-size: 2em;
+    }
+  }
+}
+
+.address {
+  width: 100%;
+  text-align: center;
+  h5 {
+    font-weight: normal;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  p {
+    font-weight: 100;
+  }
+}
+
+.company-contacts {
+  margin-top: 100px;
+  @extend %clearfix;
+  h3 {
+    font-weight: 100;
+    font-size: 1.6em;
+    text-align: center;
+  }
+}
+
+.employee-block {
+  width: 50%;
+  margin: 50px auto;
+  float: left;
+  text-align: center;
+  padding: 50px;
+  @media screen and (max-width: 560px) {
+    width: 100%;
+    padding: 40px;
+    margin: 20px auto;
+  }
+  h4 {
+    font-size: 24px;
+    border-bottom: 3px solid $alpha;
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+  h5 {
+    font-weight: normal;
+    font-size: 14px;
+  }
+}

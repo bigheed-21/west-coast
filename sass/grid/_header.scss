@@ -1,0 +1,67 @@
+.site-header {
+  @extend %clearfix;
+  padding: 30px 0;
+  background-color: $beta;
+}
+
+.site-branding {
+  float: left;
+  color: $alpha;
+  margin-top: 10px;
+  width: 35%;
+  @media screen and (max-width: 900px) {
+    width: auto;
+    float: none;
+    margin: 0;
+    display: inline-block;
+  }
+}
+
+.site-title {
+  margin: .2em 0 0;
+  float: left;
+  @media screen and (max-width: 1050px) {
+    font-size: 1.2em;
+    margin: .4em 0 0;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 1em;
+    margin: .8em 0 0 0;
+  }
+  a {
+    color: $alpha;
+  }
+}
+
+
+.site-description {
+  font-style: italic;
+  font-size: 0.9em;
+  color: white;
+  font-weight: normal;
+}
+
+
+.phone-numbers {
+  @extend %clearfix;
+  border-bottom: 1px solid $omega;
+  p {
+    text-align: center;
+    background-color: $gamma;
+    width: 50%;
+    float: left;
+    padding: 10px 0;
+    margin: 0;
+  }
+  .quote {
+    float: left;
+    width: 50%;
+    border-left: 1px solid $omega;
+    background-color: $gamma;
+    color: $alpha;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+

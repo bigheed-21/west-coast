@@ -1,0 +1,121 @@
+.main-navigation {
+  float: right;
+  margin-top: 22px;
+  background-color: $beta;
+  @media screen and (max-width: 1050px) {
+    margin-top: 18px;
+  }
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+  ul {
+    margin: 0;
+    li {
+      float: left;
+      a {
+        padding: 0 2.4em;
+        color: $alpha;
+        @media screen and (max-width: 1184px) {
+          padding: 0 1.4em;
+        }
+      }
+    }
+  }
+} 
+
+
+.nav-trigger {
+  display: none;
+  position: absolute;
+  top: -4px;
+  right: 10px;
+  width: 22px;
+  height: 100%;
+  span {
+    height: 3px;
+    width: 22px;
+    background-color: $omega;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    bottom: auto;
+    left: auto;
+    top: 45%;
+    z-index: 1000;
+    transition: all, 0.3s;
+    &::after {
+      top: -7px;
+      content: '';
+      position: absolute;
+      background-color: $omega;
+      width: 22px;
+      height: 3px;
+      transition: all, 0.3s;
+    }
+    &::before {
+      top: 7px;
+      content: '';
+      position: absolute;
+      background-color: $omega;
+      width: 22px;
+      height: 3px;
+      transition: all, 0.3s;  
+    }
+  }
+  @media screen and (max-width: 900px) {
+    display: inline-block;
+  }
+}
+
+.nav-trigger span.is-active::before {
+  top: 0;
+  background-color: $beta;
+  transform: rotate(135deg);
+  transition: all, 0.3s;
+}
+
+.nav-trigger span.is-active::after {
+  top: 0;
+  background-color: $beta;
+  transform: rotate(225deg);
+  transition: all, 0.3s;
+}
+
+.nav-trigger span.is-active {
+  background-color: transparent;
+  transition: all, 0.3s;
+}
+
+
+
+.mobile-nav .menu {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  top: 0px;
+  background-color: rgba(0,0,0,0.9);
+  backface-visibility: hidden;
+  overflow: auto;
+  transform: translateX(100%);
+  transition: all, 0.4s;
+  text-align: center;
+  padding: 50px 0;
+  z-index: 100;
+  li {
+    font-size: 1.2em;
+    padding: 20px 0;
+    a {
+      color: $beta;
+    }
+  }
+}
+
+.mobile-nav .menu.is-visible {
+  transform: translateY(0%);
+  transform: all, 0.4s;
+}
+
+
+
+
