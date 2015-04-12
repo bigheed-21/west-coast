@@ -1,7 +1,7 @@
 /** Global Imports **/
 /* Color Scheme */
 section.about-us {
-  background-color: #d3d3d3;
+  background-color: #e8e8e8;
   padding: 180px 140px;
   /* background-image: url('/spencer/wp-content/themes/West-Coast/img/rsz_photo_2.jpg');
   background-position: center center;
@@ -678,11 +678,9 @@ h1 {
 
 .site-footer {
   padding: 140px 0;
-  margin-top: 150px;
   border-top: 1px solid #d3d3d3; }
   @media screen and (max-width: 719px) {
     .site-footer {
-      margin-top: 40px;
       padding: 30px 0; } }
   @media screen and (max-width: 500px) {
     .site-footer {
@@ -818,7 +816,7 @@ form {
 
 input {
   border: 1px solid #fff;
-  background-color: #d3d3d3;
+  background-color: #e8e8e8;
   padding: 20px;
   outline: none; }
 
@@ -831,7 +829,7 @@ input[type='submit'] {
   color: #fff; }
 
 select {
-  background-color: #d3d3d3;
+  background-color: #e8e8e8;
   border: 1px solid #fff;
   width: 100%;
   outline: none; }
@@ -839,7 +837,7 @@ select {
     text-align: center; }
 
 textarea {
-  background-color: #d3d3d3;
+  background-color: #e8e8e8;
   padding: 20px;
   border: 1px solid #fff;
   outline: none; }
@@ -903,9 +901,6 @@ input[type="submit"], input[type="text"], textarea {
   color: #a1a1a1;
   padding-bottom: 4px;
   margin-top: 10px; }
-
-.alt {
-  width: 80%; }
 
 .sales {
   background-color: #fff;

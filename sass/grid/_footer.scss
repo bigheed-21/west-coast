@@ -1,10 +1,8 @@
 .site-footer {
   padding: 140px 0;
   @extend %clearfix;
-  margin-top: 150px;
   border-top: 1px solid $delta;
   @media screen and (max-width: 719px) {
-    margin-top: 40px;
     padding: 30px 0;
   }
   @media screen and (max-width: 500px) {
